@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon index",
+    "dev": "nodemon index",
     "start": "node index"
   },
   "keywords": [],
@@ -17,5 +17,3 @@
     "nodemon": "^2.0.4"
   }
 }
-
-
