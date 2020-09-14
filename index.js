@@ -6,7 +6,7 @@ app.get("/", function (req, res) {
 });
 
 app.get("/json", function (req, res) {
-  res.json({ hola: "Media Técnica PCJIC - 2020" });
+  res.json({ hola: "Media Técnica Poli - 2020" });
 });
 
 app.listen(5057, function () {
