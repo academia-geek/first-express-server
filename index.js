@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("Hola Mundo PCJIC");
+  res.send("Heeeellooooo Geeks ;)!");
 });
 
 app.get("/json", function (req, res) {
-  res.json({ hola: "Media Técnica Poli - 2020" });
+  res.json({ hola: "Academia Geek - Backend bebelopers" });
 });
 
 app.listen(5057, function () {
